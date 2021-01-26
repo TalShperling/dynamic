@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "nodemon src/server.ts",
-	"extract": "rimraf node_modules && unzip node_modules.zip",
+	  "extract": "unzip node_modules.zip",
     "lint": "npx eslint ./src/**",
     "start": "npm run build && node dist/server.js",
     "start:prod": "node dist/server.js"
