@@ -5,10 +5,9 @@
   "main": "server.js",
   "scripts": {
     "build": "tsc",
-    "dev": "concurrently \"nodemon src/server.ts\" \"npm run generate\"",
-    "generate": "graphql-codegen --config codegen.yml",
+    "dev": "nodemon src/server.ts",
+	"extract": "rimraf node_modules && unzip node_modules.zip",
     "lint": "npx eslint ./src/**",
-    "prepare": "npm run generate",
     "start": "npm run build && node dist/server.js",
     "start:prod": "node dist/server.js"
   },
