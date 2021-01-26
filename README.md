@@ -10,6 +10,12 @@ With a use of the most popular, helpful and basic packages to start your own Apo
 ```node
 npm install  
 ```
+
+#### Note: 
+For making the protobufjs-cli work you need on the internet install the cli external files.
+You can install them by running the pbjs.js with node in the node_modules/protobufjs/cli
+
+ 
 ### Running the project
 On dev environment:
 ```
