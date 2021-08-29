@@ -1,5 +1,5 @@
 {
-  "name": "bluetorch dynamic",
+  "name": "bluetorch-dynamic",
   "version": "1.0.0",
   "description": "GraphQL Apollo-Server-Express Typescript seed",
   "main": "server.js",
