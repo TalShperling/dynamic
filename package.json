@@ -40,7 +40,7 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "5.1.0",
     "jest": "27.2.4",
-    "jest-html-reporter": "^3.4.1",
+    "jest-html-reporter": "3.4.1",
     "jsdoc": "3.6.7",
     "nodemon": "2.0.13",
     "prettier": "2.4.1",
