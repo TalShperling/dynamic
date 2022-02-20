@@ -11,7 +11,10 @@
     "lint": "npx eslint --fix ./src/**",
     "prettier": "npx prettier --write ./src/",
     "start": "concurrently -k -n \"Server,GQL-Codegen\" -c \"blue,magenta\" \"nodemon src/server.ts\" \"npm run generate\"",
-    "start:prod": "node dist/server.js"
+    "start:prod": "node dist/server.js",
+	"test": "jest",
+	"test:coverage": "jest --coverage",
+	"test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand"
   },
   "keywords": [
     "apollo-server-express",
