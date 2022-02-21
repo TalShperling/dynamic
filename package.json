@@ -12,9 +12,10 @@
     "prettier": "npx prettier --write ./src/",
     "start": "concurrently -k -n \"Server,GQL-Codegen\" -c \"blue,magenta\" \"nodemon src/server.ts\" \"npm run generate\"",
     "start:prod": "node dist/server.js",
-	"test": "jest",
-	"test:coverage": "jest --coverage",
-	"test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand",
+    "prepare": "husky install"
   },
   "keywords": [
     "apollo-server-express",
@@ -42,6 +43,7 @@
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.0.0",
+    "husky": "^7.0.4",
     "jest": "27.5.1",
     "jest-html-reporter": "3.4.2",
     "jest-sonar-reporter": "2.0.0",
